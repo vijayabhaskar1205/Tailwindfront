@@ -1,0 +1,15 @@
+@import "tailwindcss";
+.vb{
+    @apply rounded-full
+
+    ms-2 mt-1 w-16 h-16
+}
+.nav{
+    @apply flex justify-between items-center bg-blue-500
+}
+.ulll{
+    @apply flex space-x-6 text-blue-100 font-medium text-xl
+}
+.sign{
+    @apply bg-blue-300 p-2   me-4 rounded-3xl hover:bg-white font-medium
+}
